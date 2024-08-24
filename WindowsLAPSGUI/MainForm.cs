@@ -158,17 +158,6 @@ namespace WindowsLAPSGUI
                         }
                         this.Refresh();
                     }
-                    /*
-                    catch (ArgumentOutOfRangeException)
-                    {
-                        edtPassword.Clear();
-                        edtExpiration.Clear();
-                        lstPwdHistory.Items.Clear();
-                        btnChange.Visible = false;
-                        this.Refresh();
-                        MessageBox.Show("ArgumentOutOfRangeException.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    */
                     catch (InvalidOperationException)
                     {
                         edtPassword.Clear();
@@ -196,6 +185,20 @@ namespace WindowsLAPSGUI
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnSet_Click(object sender, EventArgs e)
+        {
+            //Button should only be shown when a valid computer object is found in AD
+            var setExpiryTime = PowerShell.Create().AddScript($@"Set-LapsADPasswordExpirationTime -Identity {edtComputerName.Text} -WhenEffective (Get-Date -Date ""{dteNewPwdEpiry.Text}"")").Invoke();
+            if (setExpiryTime.First().Properties["Status"].Value.ToString() == "PasswordReset")
+            {
+                edtExpiration.Text = dteNewPwdEpiry.Text;
+            }
+            else
+            {
+                MessageBox.Show($"An error occurred while updating the password expiration time for {edtComputerName.Text}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

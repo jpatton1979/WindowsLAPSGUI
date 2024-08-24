@@ -38,7 +38,7 @@
             this.grpComputer = new System.Windows.Forms.GroupBox();
             this.grpPassword = new System.Windows.Forms.GroupBox();
             this.lblNewExpiration = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dteNewPwdEpiry = new System.Windows.Forms.DateTimePicker();
             this.btnSet = new System.Windows.Forms.Button();
             this.grpHistory = new System.Windows.Forms.GroupBox();
             this.lstPwdHistory = new System.Windows.Forms.ListView();
@@ -118,7 +118,7 @@
             // grpPassword
             // 
             this.grpPassword.Controls.Add(this.lblNewExpiration);
-            this.grpPassword.Controls.Add(this.dateTimePicker1);
+            this.grpPassword.Controls.Add(this.dteNewPwdEpiry);
             this.grpPassword.Controls.Add(this.btnSet);
             this.grpPassword.Controls.Add(this.lblPassword);
             this.grpPassword.Controls.Add(this.edtPassword);
@@ -140,14 +140,14 @@
             this.lblNewExpiration.TabIndex = 12;
             this.lblNewExpiration.Text = "New Expiration";
             // 
-            // dateTimePicker1
+            // dteNewPwdEpiry
             // 
-            this.dateTimePicker1.CustomFormat = "MM/dd/yyyy hh:mm:ss tt";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(5, 154);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
-            this.dateTimePicker1.TabIndex = 11;
+            this.dteNewPwdEpiry.CustomFormat = "M/dd/yyyy hh:mm:ss tt";
+            this.dteNewPwdEpiry.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dteNewPwdEpiry.Location = new System.Drawing.Point(5, 154);
+            this.dteNewPwdEpiry.Name = "dteNewPwdEpiry";
+            this.dteNewPwdEpiry.Size = new System.Drawing.Size(197, 20);
+            this.dteNewPwdEpiry.TabIndex = 11;
             // 
             // btnSet
             // 
@@ -158,6 +158,7 @@
             this.btnSet.Text = "Set";
             this.btnSet.UseVisualStyleBackColor = true;
             this.btnSet.Visible = false;
+            this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
             // 
             // grpHistory
             // 
@@ -244,7 +245,7 @@
         private System.Windows.Forms.ColumnHeader Password;
         private System.Windows.Forms.Button btnSet;
         private System.Windows.Forms.Label lblNewExpiration;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dteNewPwdEpiry;
         private System.Windows.Forms.Button btnExit;
     }
 }
