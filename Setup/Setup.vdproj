@@ -15,26 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_13048071DD7EB12AF7609D1A239F1021"
+        "MsmKey" = "8:_330D9F68F0FD1D0E14990440487EC312"
         "OwnerKey" = "8:_3B494D632F2C41BA8B9EB8B195F958DB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_13048071DD7EB12AF7609D1A239F1021"
-        "OwnerKey" = "8:_662BB8A048766FFB7C038A4A3A94E7C4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_147F9DB5234085959290F67775F4994A"
-        "OwnerKey" = "8:_13048071DD7EB12AF7609D1A239F1021"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_147F9DB5234085959290F67775F4994A"
-        "OwnerKey" = "8:_3B494D632F2C41BA8B9EB8B195F958DB"
+        "MsmKey" = "8:_330D9F68F0FD1D0E14990440487EC312"
+        "OwnerKey" = "8:_A5B9ACD4519B4385FECBF160C89B8653"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,8 +33,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_662BB8A048766FFB7C038A4A3A94E7C4"
+        "MsmKey" = "8:_45ED623D28CF045F4F73D5C4C0A647B6"
         "OwnerKey" = "8:_3B494D632F2C41BA8B9EB8B195F958DB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A5B9ACD4519B4385FECBF160C89B8653"
+        "OwnerKey" = "8:_3B494D632F2C41BA8B9EB8B195F958DB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A5B9ACD4519B4385FECBF160C89B8653"
+        "OwnerKey" = "8:_45ED623D28CF045F4F73D5C4C0A647B6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,19 +70,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_662BB8A048766FFB7C038A4A3A94E7C4"
+        "OwnerKey" = "8:_45ED623D28CF045F4F73D5C4C0A647B6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_13048071DD7EB12AF7609D1A239F1021"
+        "OwnerKey" = "8:_A5B9ACD4519B4385FECBF160C89B8653"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_147F9DB5234085959290F67775F4994A"
+        "OwnerKey" = "8:_330D9F68F0FD1D0E14990440487EC312"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -99,7 +99,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Setup.msi"
+        "OutputFilename" = "8:Debug\\Windows LAPS GUI.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -186,45 +186,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_13048071DD7EB12AF7609D1A239F1021"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_330D9F68F0FD1D0E14990440487EC312"
             {
             "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Management.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Management.Infrastructure.Native, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_13048071DD7EB12AF7609D1A239F1021"
-                    {
-                    "Name" = "8:Microsoft.Management.Infrastructure.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Management.Infrastructure.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_D0F4BF95BFA54FBEA2281992D09DE09C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_147F9DB5234085959290F67775F4994A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Management.Infrastructure.Native, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_147F9DB5234085959290F67775F4994A"
+                    "_330D9F68F0FD1D0E14990440487EC312"
                     {
                     "Name" = "8:Microsoft.Management.Infrastructure.Native.dll"
                     "Attributes" = "3:512"
@@ -248,20 +217,51 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_662BB8A048766FFB7C038A4A3A94E7C4"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_45ED623D28CF045F4F73D5C4C0A647B6"
             {
             "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyIsInGAC" = "11:TRUE"
             "AssemblyAsmDisplayName" = "8:System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_662BB8A048766FFB7C038A4A3A94E7C4"
+                    "_45ED623D28CF045F4F73D5C4C0A647B6"
                     {
                     "Name" = "8:System.Management.Automation.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:System.Management.Automation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_D0F4BF95BFA54FBEA2281992D09DE09C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A5B9ACD4519B4385FECBF160C89B8653"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Management.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A5B9ACD4519B4385FECBF160C89B8653"
+                    {
+                    "Name" = "8:Microsoft.Management.Infrastructure.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Management.Infrastructure.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D0F4BF95BFA54FBEA2281992D09DE09C"
@@ -387,7 +387,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows LAPS"
         "ProductCode" = "8:{8FF7DAC1-5DDF-4E5C-B4F1-B3A9527CE595}"
-        "PackageCode" = "8:{765B0E58-E744-4FA7-8FF4-EA332778380E}"
+        "PackageCode" = "8:{F1C860DF-08C7-4826-95A4-7C7A2B4CCEE1}"
         "UpgradeCode" = "8:{45AD1E63-E81D-4C80-B0D2-22C5E203AED8}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -507,6 +507,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1A7D9F7A42834196B17C68238A67E953"
+            {
+            "Name" = "8:Windows LAPS"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3B494D632F2C41BA8B9EB8B195F958DB"
+            "Folder" = "8:_046A1704A2974E75AEEA09A3A2B9C702"
+            "WorkingFolder" = "8:_D0F4BF95BFA54FBEA2281992D09DE09C"
+            "Icon" = "8:_E698B5FDDB224B68807E228651973C19"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_59C350AA7C114B55AE57404E78D0773C"
             {
             "Name" = "8:Windows LAPS"
