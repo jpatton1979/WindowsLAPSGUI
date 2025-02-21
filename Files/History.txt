@@ -1,0 +1,12 @@
+Version History of Windows LAPS GUI
+---------------------------------------
+
+This file contains information about changes for released versions of the Print Server Scripts utility.
+
+1.0.0			2025-02-21
+--------------------------
+- Initial release of the utility.
+
+
+==
+End of document
